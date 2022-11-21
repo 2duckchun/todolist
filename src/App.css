@@ -1,0 +1,74 @@
+:root {
+  background-color: #61dafb;
+  box-sizing: border-box;
+}
+
+.cont-main {
+  padding: 10px;
+  width: 400px;
+  min-height: 500px;
+  background-color: gray;
+  margin: 5rem auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0px;
+  margin: 10px 0px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+}
+
+.cont-todolist {
+  background-color: antiquewhite;
+  border: 3px solid black;
+}
+
+ul {
+  height: 365px;
+  overflow-y: scroll;
+}
+
+.li-todo {
+  margin: 5px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-todo p {
+  padding-left: 5px;
+  flex-basis: 80%;
+}
+.cont-control {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cont-control button {
+  font-size: 10px;
+}
+
+.cont-control span {
+  font-size: 10px;
+}
+
+.cont-enroll {
+  display: flex;
+  bottom: 15px;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+}
+
+.input-todolist {
+  display: block;
+  width: calc(100% - 7rem);
+}
